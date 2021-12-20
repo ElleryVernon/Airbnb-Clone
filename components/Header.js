@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { SearchIcon, GlobeAltIcon, MenuIcon, UserCircleIcon, UsersIcon } from "@heroicons/react/solid";
 
-function Header() {
+const Header = () => {
 	return (
 		<header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
 			{/* Left */}
@@ -28,6 +28,6 @@ function Header() {
 			</div>
 		</header>
 	);
-}
+};
 
 export default Header;
