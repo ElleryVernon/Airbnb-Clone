@@ -13,9 +13,9 @@ const Home = () => {
 			<Header />
 			<Banner />
 
-			<main className="max-w-7xl">
+			<main className="max-w-7xl mx-auto lg:m-5 md:pt-8 sm:pt-4">
 				<section className="p-10">
-					<h2 className="text-3xl font-semibold text-gray-800 pb-5">설레는 다음 여행을 위한 아이디어</h2>
+					<h2 className="lg:text-4xl sm:text-3xl font-semibold text-gray-800 pb-5">설레는 다음 여행을 위한 아이디어</h2>
 				</section>
 			</main>
 		</div>
